@@ -3,7 +3,10 @@ public class Main {
 
         DoublyLinkedList dLL = new DoublyLinkedList();
 
-        System.out.println(dLL.createDLL(1));
-        System.out.println(dLL.getHead().getValue());
+        dLL.createDLL(1);
+        dLL.insertDLL(2,0);
+        dLL.insertDLL(3,1);
+        dLL.insertDLL(3,7);
+        System.out.println(dLL.getHead().getNext().getValue());
     }
 }
