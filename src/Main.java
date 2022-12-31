@@ -6,7 +6,7 @@ public class Main {
         dLL.createDLL(1);
         dLL.insertDLL(2,0);
         dLL.insertDLL(3,1);
-        dLL.insertDLL(3,7);
-        System.out.println(dLL.getHead().getNext().getValue());
+        dLL.insertDLL(4,7);
+        dLL.traversalDLL();
     }
 }
