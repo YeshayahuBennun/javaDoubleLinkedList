@@ -8,5 +8,6 @@ public class Main {
         dLL.insertDLL(3,1);
         dLL.insertDLL(4,7);
         dLL.traversalDLL();
+        dLL.reverseTraversalDLL();
     }
 }
