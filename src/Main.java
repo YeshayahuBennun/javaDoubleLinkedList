@@ -10,5 +10,7 @@ public class Main {
         dLL.traversalDLL();
         dLL.deletionDLL(7);
         dLL.traversalDLL();
+        dLL.deleteDLL();
+        dLL.traversalDLL();
     }
 }
